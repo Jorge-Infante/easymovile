@@ -1,0 +1,62 @@
+{% extends "base.html"%} {% load static%} {% block css %} {% endblock css %} {% block js %}
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+
+<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+
+<script>
+    function login() {
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBcmE_2EvxzZTurVGX8VCBZwZbRFPJ-BHA",
+            authDomain: "easymovil-prueba.firebaseapp.com",
+            projectId: "easymovil-prueba",
+            storageBucket: "easymovil-prueba.appspot.com",
+            messagingSenderId: "138824955115",
+            appId: "1:138824955115:web:cd34a67e9852165a23baae",
+            measurementId: "G-5SNL2WFQ4Z"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+        var provider = new firebase.auth.GoogleAuthProvider();
+        firebase.auth()
+            .signInWithPopup(provider)
+            .then((result) => {
+                /** @type {firebase.auth.OAuthCredential} */
+
+                // This gives you a Google Access Token. You can use it to access the Google API.
+                var token = result.credential.idToken;
+                // The signed-in user info.
+                var user = result.user;
+                //Recuperar id token user
+                user.getIdToken().then(
+                        function(idToken) {
+                            console.log(idToken)
+                        }).catch(function(error) {
+
+                    })
+                    // ...
+            }).catch((error) => {
+                // Handle Errors here.
+                var errorCode = error.code;
+                var errorMessage = error.message;
+                // The email of the user's account used.
+                var email = error.email;
+                // The firebase.auth.AuthCredential type that was used.
+                var credential = error.credential;
+                console.log('========================');
+                console.log(error);
+                // ...
+            });
+    }
+</script>
+{% endblock js %}

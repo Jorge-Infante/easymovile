@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "easymovil-prueba",
+  "private_key_id": "498af9c822265f640b50bff1057c4a680434b9ef",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCd5BTNhy3vb2ji\n/2HMBrnCpjuZbc3JW/aZ8JvCOCKj9E7+DAuKyBOGbDslaalUitZZipNLrlXfBJ9t\nJVACte2P+cTMn4Eyn3p1mgw4CN3WNLTrfD/LW3+knVSxi8UZpGYubFw4DexqUxrH\nsM6KkL1RYf0UMugMhYfcIeOlBCgF/KxNdMFyYwEC3a35GE2Q47z8nrJzIiZ7ASuF\nefuG5IsRvGFv6Z2dHAPWQlr+NK1CFRXum+iq5nW1n2In6YzU7ykawjJoiamDaJtr\nAI+oWyC4UDTW/zi5Ag/mwz/sAUAmqTdDNv9hsTL4xd3Ar6IGTVZPrT8PXP5za9fl\nfH0yPkALAgMBAAECggEATs7iwUl5WJsDv9XXsxYiTzFY6zae8iQYXPL3U8RgKfTO\nHsjVVAKUmFJaXUy1i7C217+u0KYmT2hHyRtIKeozttrk63ur6aAnaB6pfaiTTZFG\nQonkb7Tua7Rp6yrICQoBRKeqigINIG71nXm3RfuDu2TNBPF52JIn42z46ss9zOpu\nRJsWD+eKDTDw+todmPRnZsDBt1YhtfJzpt4pegD+jqnrEpNtmFa6KXjiD8z/pOvF\n/Zk5bdXO4ZclfCL/ScU+YWbkoObrjODMzpt7vCui+yYmSWXB+qSobdVk6DExPAiy\nEgNuIhP6+830cZNEdH3K4H0kg1+RAXhfYnC2jxbz3QKBgQDJr2D5q90kDvjl/nid\nTIBnZoUPuGzb1Ft/ejDDEbZmdXir4/O4/X7WxtmlIkdsNnzDZvaMNHtECOhLTe5c\ngRZDLSQPg2Aw4VrFibUXgqhznTXt8Z0rVbCxPazQjthJJ1PxvTV65eYnhNqo68Cr\nGEw3lFgOiEd8bBFG75UZF0rMlwKBgQDIaW/WEtpaVccAfft64q80XR8rO8aRLp9e\nEDnF803ffnCX4uFCLF+p6B5G75jQ4j88YiBetEoHmljtIwB0zYmMmeWiZNm8iG3S\n4SfTutDBFFkIudi/Bu1QWcnJDJMyCPCm5pIkBzNaXy8tVpDDSbEYrBhss50BFFyN\nIJYJMjeyrQKBgQCoY/N1wdbLSmzpqoON4de7fU9Phs3s5OrYDm80D0/ZT+9GpPZS\n1+PU8wW46Fv1r7CPfSIQgakBbuZ0KUcAmQ67W68l/KyNYzpkf8thK8f1b6cdWYO+\nMLdr5HCrWPiga2OdDDrgt55oFHZ0XxHoSEsqhILY71OwQJJURaiY4GelVQKBgQCW\nOutZtuI1i01Uohusf1bE0vV1bCaqWB+g3Frid0MtwNNYF/uxph/D9rsTg7GzC5ZJ\nhmkrdMx1rI7ynCVQaW6tlgOcWysY99ATnzJCtiycP8uKDf5bHC8y50uqySFiBW+Y\nPQjZtwgYu3da7iQwMAJwMzlP6shLsd667+1oUVuNNQKBgCjX7bDXngjVWxA4ltX6\npTbneZGycQeTyBZVYAwUzD4CEXmeOdib+Q2J+yHsKnoDa/AkNqrtSxQkPPdlb/Ol\nwRS8YN8fio2TypT2WtlEkfigmuzkeX1SEvdgtby3cIRW/yoi5IvKp1oWMp0e8Zlr\nQWt+eb2HwTwYyymYJR7fWvPP\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-frur1@easymovil-prueba.iam.gserviceaccount.com",
+  "client_id": "118376742589726015964",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-frur1%40easymovil-prueba.iam.gserviceaccount.com"
+}
